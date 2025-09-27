@@ -1,0 +1,13 @@
+[[redirects]]
+  from = "/api/ics"
+  to = "/.netlify/functions/ics"
+  status = 200
+
+[[headers]]
+  for = "/**"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self'; img-src 'self' data:; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'self'"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"

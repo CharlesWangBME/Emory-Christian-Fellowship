@@ -1,0 +1,16 @@
+{
+  "name": "Emory Christian Fellowship",
+  "short_name": "ECF",
+  "description": "Official website of Emory Christian Fellowship",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2b4c7e",
+  "icons": [
+    {
+    "src": "images/hero.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

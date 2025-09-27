@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emory Christian Fellowship</title>
+    <meta name="description" content="Official website of Emory Christian Fellowship, a multi‑ethnic, interdenominational Christian community on campus." />
+    <!-- Open Graph & Twitter cards -->
+    <meta property="og:title" content="Emory Christian Fellowship" />
+    <meta property="og:description" content="Official website of Emory Christian Fellowship, a multi‑ethnic, interdenominational Christian community on campus." />
+    <meta property="og:image" content="/images/hero.png" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Emory Christian Fellowship" />
+    <meta name="twitter:description" content="Official website of Emory Christian Fellowship, a multi‑ethnic, interdenominational Christian community on campus." />
+    <meta name="twitter:image" content="/images/hero.png" />
+    <!-- Favicon & manifest -->
+    <link rel="icon" href="images/hero.png" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="manifest" href="manifest.webmanifest" />
+  </head>
+  <body>
+    <!-- Skip link for accessibility -->
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="container">
+        <a class="site-logo" href="index.html">ECF</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">☰</button>
+        <nav id="nav-menu" class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="ministry.html">Our Ministry</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="get-involved.html">Get Involved</a></li>
+            <li><a href="leaders.html">Leaders</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="site-main container">
+      <section class="hero">
+        <img src="images/hero.png" alt="Abstract graphic background" />
+        <div class="hero-content">
+          <h1>Welcome to Emory Christian Fellowship</h1>
+          <p>A multi‑ethnic, interdenominational Christian community where students connect across society’s barriers. We invite you to join us as we learn about Jesus together.</p>
+          <a class="btn" href="get-involved.html">Get Involved</a>
+        </div>
+      </section>
+
+      <section class="highlights">
+        <div class="highlight">
+          <h2>Our Mission</h2>
+          <p class="placeholder">This is placeholder text for the mission statement. It can be replaced with your organization’s description and goals.</p>
+        </div>
+        <div class="highlight">
+          <h2>Campus Ministry</h2>
+          <p class="placeholder">Placeholder text describing your ministry activities, such as small groups, large worship gatherings, and service opportunities.</p>
+        </div>
+        <div class="highlight">
+          <h2>Community Life</h2>
+          <p class="placeholder">Placeholder text that highlights the inclusive and supportive community that defines Emory Christian Fellowship.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Emory Christian Fellowship. All rights reserved.</p>
+        <p>ECF is affiliated with InterVarsity Christian Fellowship/USA.</p>
+        <p><a href="https://intervarsity.org">InterVarsity USA</a></p>
+      </div>
+    </footer>
+
+    <script type="module" src="scripts/main.js"></script>
+    <script type="module">
+      // Dynamic year in footer
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

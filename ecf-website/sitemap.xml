@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://yourdomain.edu/</loc>
+  </url>
+  <url>
+    <loc>https://yourdomain.edu/about.html</loc>
+  </url>
+  <url>
+    <loc>https://yourdomain.edu/ministry.html</loc>
+  </url>
+  <url>
+    <loc>https://yourdomain.edu/events.html</loc>
+  </url>
+  <url>
+    <loc>https://yourdomain.edu/get-involved.html</loc>
+  </url>
+  <url>
+    <loc>https://yourdomain.edu/leaders.html</loc>
+  </url>
+  <!-- Individual event detail pages would be listed here when created -->
+</urlset>

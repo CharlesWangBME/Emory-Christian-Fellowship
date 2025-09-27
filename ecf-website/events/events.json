@@ -1,0 +1,41 @@
+[
+  {
+    "id": "fall-retreat-2025",
+    "title": "Fall Retreat 2025",
+    "start": "2025-10-10T18:00:00-04:00",
+    "end": "2025-10-12T13:00:00-04:00",
+    "locationName": "Toah Nipi Retreat Center",
+    "locationUrl": "https://maps.google.com/?q=Toah+Nipi+Retreat+Center",
+    "category": ["Retreat", "Regional"],
+    "image": "/images/hero.png",
+    "registrationUrl": "https://example.com/register-fall-retreat",
+    "description": "Join us for a weekend retreat of community, fun, and spiritual growth.",
+    "status": "published"
+  },
+  {
+    "id": "weekly-worship-2025-10-04",
+    "title": "Weekly Worship Gathering",
+    "start": "2025-10-04T19:00:00-04:00",
+    "end": "2025-10-04T21:00:00-04:00",
+    "locationName": "Campus Chapel",
+    "locationUrl": "https://maps.google.com/?q=Campus+Chapel",
+    "category": ["Worship"],
+    "image": "/images/hero.png",
+    "registrationUrl": "",
+    "description": "Join us for our weekly worship gathering on campus.",
+    "status": "published"
+  },
+  {
+    "id": "service-day-2025-11-01",
+    "title": "Community Service Day",
+    "start": "2025-11-01T09:00:00-04:00",
+    "end": "2025-11-01T15:00:00-04:00",
+    "locationName": "Atlanta Community Center",
+    "locationUrl": "https://maps.google.com/?q=Atlanta+Community+Center",
+    "category": ["Service"],
+    "image": "/images/hero.png",
+    "registrationUrl": "https://example.com/service-day",
+    "description": "Serve alongside fellow students as we partner with a local community organization.",
+    "status": "published"
+  }
+]
